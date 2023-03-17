@@ -14,4 +14,7 @@ for(var i = 0; i < Object.keys(abbrs).length; i++){
   };
   value.innerHTML = 0;
   value.classList.add("inline", "val");
+  document.querySelector("#sliders").appendChild(label);
+  document.querySelector("#sliders").appendChild(slider);
+  document.querySelector("#sliders").appendChild(value);
 }

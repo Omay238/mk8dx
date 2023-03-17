@@ -1,10 +1,10 @@
-for(var i = 0; i < Object.keys(abbr).length; i++){
+for(var i = 0; i < Object.keys(abbrs).length; i++){
   let label = document.createElement("p");
   let slider = document.createElement("input");
   let value = document.createElement("p");
-  label.innerHTML = abbr[Object.keys(abbr)[i]];
+  label.innerHTML = abbrs[Object.keys(abbrs)[i]];
   label.classList.add("inline");
-  slider.id = Object.keys(abbr)[i];
+  slider.id = Object.keys(abbrs)[i];
   slider.type = "range";
   slider.min = -10;
   slider.max = 10;

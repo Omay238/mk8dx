@@ -3,7 +3,6 @@ for(var i = 0; i < Object.keys(abbrs).length; i++){
   let slider = document.createElement("input");
   let value = document.createElement("p");
   label.innerHTML = abbrs[Object.keys(abbrs)[i]];
-  label.classList.add("inline");
   slider.id = Object.keys(abbrs)[i];
   slider.type = "range";
   slider.min = -10;
